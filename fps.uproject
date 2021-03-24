@@ -16,6 +16,10 @@
 		{
 			"Name": "UnrealUtilityAI",
 			"Enabled": true
+		},
+		{
+			"Name": "DatasmithFBXImporter",
+			"Enabled": true
 		}
 	]
 }
