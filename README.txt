@@ -16,3 +16,7 @@ Quick start:
 3. Copy the folder "AI" to your project folder
 4. Choose necessary behavior scripts
 5. 
+
+
+States:
+Idle state runs when enemy can not see player and has high health level.
