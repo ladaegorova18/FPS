@@ -15,8 +15,16 @@ Quick start:
 2. Open folder "AI"
 3. Copy the folder "AI" to your project folder
 4. Choose necessary behavior scripts
-5. 
+5. Test and integrate
 
 
 States:
-Idle state runs when enemy can not see player and has high health level.
+1. Idle-Explore state runs when enemy can not see player and has high health level.
+2. Follow state runs when enemy can see player and player if too far to attack.
+3. MeleeAttack state runs when enemy is close to player.
+4. ShootAttack state runs when enemy is enough far from player to shoot.
+5. Heal: runs when enemy has low health level and see aid first kit.
+6. Cover: runs when enemy is going to shoot and see cover.
+7. OutOfCover: runs when enemy is in cover and does not see player.
+8. Retreat: runs when enemy has low health level and does not see aid first kit.
+9. AnyState — special state. If conditions for Retreat state are true, enemy switches to the state Retreat from any other (except Heal).
