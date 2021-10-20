@@ -1,4 +1,4 @@
-To run the project you should intall Unreal Engine 4. 
+To run the project you should install Unreal Engine 4. 
 https://www.unrealengine.com/en-US/download?install=true
 Using it open fps.uproject file. Also use it to build the project.
 
